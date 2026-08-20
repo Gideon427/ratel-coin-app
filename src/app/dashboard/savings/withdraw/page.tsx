@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useEffect, useState, ChangeEvent } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -29,7 +30,8 @@ function formatCurrency(value: number) {
   return value.toFixed(2);
 }
 
-export default function WithdrawPage() {
+// ─── Component that uses useSearchParams ──────────────────
+function WithdrawContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const planId = searchParams.get("planId");
@@ -145,5 +147,14 @@ export default function WithdrawPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+// ─── Page export with Suspense ────────────────────────────
+export default function WithdrawPage() {
+  return (
+    <Suspense fallback={<div className="text-center py-20"><div className="animate-spin rounded-full h-12 w-12 border-b-2 border-red-600 mx-auto" /></div>}>
+      <WithdrawContent />
+    </Suspense>
   );
 }

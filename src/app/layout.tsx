@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import ClientLayout from "./ClientLayout";
 import "./globals.css";
 const inter = Inter({

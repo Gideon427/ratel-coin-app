@@ -1,0 +1,16 @@
+{
+  "name": "Ratel Coin",
+  "short_name": "Ratel",
+  "description": "Ratel Coin – Decentralized Finance",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#dc2626",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    }
+  ]
+}

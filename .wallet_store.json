@@ -1,0 +1,1262 @@
+{
+  "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8": {
+    "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+    "email": "user_0x3cb005@demo.com",
+    "balance": -100,
+    "balanceUSD": -198,
+    "transactions": [
+      {
+        "id": 1783724674388,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "to": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "date": "7/10/2026, 4:04:28 PM",
+        "status": "completed",
+        "hash": "0x74f2d736279ec33693c171efa4700cb1854fd8f56e4777a2f8fc75effda3298c"
+      },
+      {
+        "id": 1783724674384,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "to": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "date": "7/10/2026, 4:04:28 PM",
+        "status": "completed",
+        "hash": "0x74f2d736279ec33693c171efa4700cb1854fd8f56e4777a2f8fc75effda3298c"
+      },
+      {
+        "id": 1783721165068,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "to": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "date": "7/10/2026, 3:06:02 PM",
+        "status": "completed",
+        "hash": "0x60c2f45d92e14213132614765065bc346f399a349d7b9b71a470a3e3ed738770"
+      },
+      {
+        "id": 1783721167945,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "to": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "date": "7/10/2026, 3:06:02 PM",
+        "status": "completed",
+        "hash": "0x60c2f45d92e14213132614765065bc346f399a349d7b9b71a470a3e3ed738770"
+      },
+      {
+        "id": 1783720943339,
+        "type": "sent",
+        "amount": 30,
+        "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "to": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "date": "7/10/2026, 3:02:14 PM",
+        "status": "completed",
+        "hash": "0xa74f426ea35df9b464205bab4e8039f920ff76ff21d2bbc9a16a4138ba2ac50a"
+      },
+      {
+        "id": 1783720941786,
+        "type": "sent",
+        "amount": 30,
+        "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "to": "0x74521195111186E35f82e1e78181b2C290754eaF",
+        "date": "7/10/2026, 3:02:14 PM",
+        "status": "completed",
+        "hash": "0xa74f426ea35df9b464205bab4e8039f920ff76ff21d2bbc9a16a4138ba2ac50a"
+      }
+    ],
+    "createdAt": "2026-07-10T22:02:14.713Z"
+  },
+  "0x74521195111186E35f82e1e78181b2C290754eaF": {
+    "address": "0x74521195111186E35f82e1e78181b2C290754eaF",
+    "email": "user_0x745211@demo.com",
+    "balance": 100,
+    "balanceUSD": 198,
+    "transactions": [
+      {
+        "id": 1783724671497,
+        "type": "received",
+        "amount": 10,
+        "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "from": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "date": "7/10/2026, 4:04:28 PM",
+        "status": "completed",
+        "hash": "0x74f2d736279ec33693c171efa4700cb1854fd8f56e4777a2f8fc75effda3298c"
+      },
+      {
+        "id": 1783724678281,
+        "type": "received",
+        "amount": 10,
+        "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "from": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "date": "7/10/2026, 4:04:28 PM",
+        "status": "completed",
+        "hash": "0x74f2d736279ec33693c171efa4700cb1854fd8f56e4777a2f8fc75effda3298c"
+      },
+      {
+        "id": 1783721169679,
+        "type": "received",
+        "amount": 10,
+        "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "from": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "date": "7/10/2026, 3:06:02 PM",
+        "status": "completed",
+        "hash": "0x60c2f45d92e14213132614765065bc346f399a349d7b9b71a470a3e3ed738770"
+      },
+      {
+        "id": 1783721168591,
+        "type": "received",
+        "amount": 10,
+        "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "from": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "date": "7/10/2026, 3:06:02 PM",
+        "status": "completed",
+        "hash": "0x60c2f45d92e14213132614765065bc346f399a349d7b9b71a470a3e3ed738770"
+      },
+      {
+        "id": 1783720934927,
+        "type": "received",
+        "amount": 30,
+        "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "from": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "date": "7/10/2026, 3:02:14 PM",
+        "status": "completed",
+        "hash": "0xa74f426ea35df9b464205bab4e8039f920ff76ff21d2bbc9a16a4138ba2ac50a"
+      },
+      {
+        "id": 1783720942231,
+        "type": "received",
+        "amount": 30,
+        "address": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "from": "0x3cb0050DF34F94a9a070f88CA49A04A7a83dA5f8",
+        "date": "7/10/2026, 3:02:14 PM",
+        "status": "completed",
+        "hash": "0xa74f426ea35df9b464205bab4e8039f920ff76ff21d2bbc9a16a4138ba2ac50a"
+      }
+    ],
+    "createdAt": "2026-07-10T22:02:14.713Z"
+  },
+  "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7": {
+    "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+    "email": "user_0x0D47A0@demo.com",
+    "balance": 70,
+    "balanceUSD": 138.6,
+    "transactions": [
+      {
+        "id": 1783880383004,
+        "type": "received",
+        "amount": 10,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/12/2026, 11:19:40 AM",
+        "status": "completed",
+        "hash": "0x0d51d387ac256b29ea305152bfd0bcf0e221a670ab415b3306e9c83f8f8d5663"
+      },
+      {
+        "id": 1783800207242,
+        "type": "sent",
+        "amount": 40,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 1:03:26 PM",
+        "status": "completed",
+        "hash": "0x1766f215fe7de91a90f1193484bb3a7462225dfef75ff98381da600b975c0812"
+      },
+      {
+        "id": 1783799837885,
+        "type": "sent",
+        "amount": 100,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 12:57:11 PM",
+        "status": "completed",
+        "hash": "0x769a42455ef09e6540ed92a1c74ed811d00fb69fea07db5308065f7b03f69592"
+      },
+      {
+        "id": 1783799839656,
+        "type": "sent",
+        "amount": 100,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 12:57:11 PM",
+        "status": "completed",
+        "hash": "0x769a42455ef09e6540ed92a1c74ed811d00fb69fea07db5308065f7b03f69592"
+      },
+      {
+        "id": 1783799538073,
+        "type": "received",
+        "amount": 18,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 12:52:13 PM",
+        "status": "completed",
+        "hash": "0xe8d85753d4c94cc89f66b8a2ea7dcc79732ec6a095547af6948e42c75c9ecd02"
+      },
+      {
+        "id": 1783799535961,
+        "type": "received",
+        "amount": 18,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 12:52:12 PM",
+        "status": "completed",
+        "hash": "0xe8d85753d4c94cc89f66b8a2ea7dcc79732ec6a095547af6948e42c75c9ecd02"
+      },
+      {
+        "id": 1783786486608,
+        "type": "sent",
+        "amount": 2,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 9:14:40 AM",
+        "status": "completed",
+        "hash": "0xa35714614cdfd538560779eeae9f5ed6bf206b7d6f821242049e01b413b8084e"
+      },
+      {
+        "id": 1783786487732,
+        "type": "sent",
+        "amount": 2,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 9:14:40 AM",
+        "status": "completed",
+        "hash": "0xa35714614cdfd538560779eeae9f5ed6bf206b7d6f821242049e01b413b8084e"
+      },
+      {
+        "id": 1783786343404,
+        "type": "sent",
+        "amount": 10,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 9:12:14 AM",
+        "status": "completed",
+        "hash": "0xfa4bed9785ce06f728c49a3a4b8e0a8a48d4035f9845b472418b96b44696d3c5"
+      },
+      {
+        "id": 1783786343900,
+        "type": "sent",
+        "amount": 10,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 9:12:13 AM",
+        "status": "completed",
+        "hash": "0xfa4bed9785ce06f728c49a3a4b8e0a8a48d4035f9845b472418b96b44696d3c5"
+      },
+      {
+        "id": 1783785876572,
+        "type": "sent",
+        "amount": 20,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 9:04:30 AM",
+        "status": "completed",
+        "hash": "0xff419a0d5a80c10b607606a97a53d09beb1e01643beb7e3219792fce2e80c513"
+      },
+      {
+        "id": 1783785875231,
+        "type": "sent",
+        "amount": 20,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 9:04:30 AM",
+        "status": "completed",
+        "hash": "0xff419a0d5a80c10b607606a97a53d09beb1e01643beb7e3219792fce2e80c513"
+      },
+      {
+        "id": 1783785499888,
+        "type": "received",
+        "amount": 57,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:58:14 AM",
+        "status": "completed",
+        "hash": "0xdc9ce0c4a0d6006d8cf3301ca05647143ecf1a07c4e39d71708d42f2f517a6f7"
+      },
+      {
+        "id": 1783785497828,
+        "type": "received",
+        "amount": 57,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:58:14 AM",
+        "status": "completed",
+        "hash": "0xdc9ce0c4a0d6006d8cf3301ca05647143ecf1a07c4e39d71708d42f2f517a6f7"
+      },
+      {
+        "id": 1783785119661,
+        "type": "received",
+        "amount": 12,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:51:52 AM",
+        "status": "completed",
+        "hash": "0x756fed5b64000c0ab695e45ab53255307cc605ee9d965dab867a985bbfe5cf34"
+      },
+      {
+        "id": 1783785112318,
+        "type": "received",
+        "amount": 12,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:51:51 AM",
+        "status": "completed",
+        "hash": "0x756fed5b64000c0ab695e45ab53255307cc605ee9d965dab867a985bbfe5cf34"
+      },
+      {
+        "id": 1783785034681,
+        "type": "received",
+        "amount": 43,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:50:26 AM",
+        "status": "completed",
+        "hash": "0xc3cff0ff18c48e976719eaab4f151f6ac319f069ddd321bfea80d0eb12ee1e29"
+      },
+      {
+        "id": 1783785028403,
+        "type": "received",
+        "amount": 43,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:50:26 AM",
+        "status": "completed",
+        "hash": "0xc3cff0ff18c48e976719eaab4f151f6ac319f069ddd321bfea80d0eb12ee1e29"
+      },
+      {
+        "id": 1783784889166,
+        "type": "received",
+        "amount": 32,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:48:07 AM",
+        "status": "completed",
+        "hash": "0x0a71eef5efbca3be67679e2f8ab939d0daee31de785f4acb94c004ac802e506b"
+      },
+      {
+        "id": 1783784892092,
+        "type": "received",
+        "amount": 32,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:48:07 AM",
+        "status": "completed",
+        "hash": "0x0a71eef5efbca3be67679e2f8ab939d0daee31de785f4acb94c004ac802e506b"
+      },
+      {
+        "id": 1783783917178,
+        "type": "received",
+        "amount": 40,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:31:52 AM",
+        "status": "completed",
+        "hash": "0x8340c328cf6c8fc6e6145e6a16697625660116f568ca5b7b84e3739dc2e5c071"
+      },
+      {
+        "id": 1783783921786,
+        "type": "received",
+        "amount": 40,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "from": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:31:51 AM",
+        "status": "completed",
+        "hash": "0x8340c328cf6c8fc6e6145e6a16697625660116f568ca5b7b84e3739dc2e5c071"
+      },
+      {
+        "id": 1783725106148,
+        "type": "sent",
+        "amount": 20,
+        "address": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "to": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "date": "7/10/2026, 4:11:38 PM",
+        "status": "completed",
+        "hash": "0x1d1f98b1a1ebc810a58c1f9d5f8b32a2f1cb94f86251196107e18fe2381604ef"
+      },
+      {
+        "id": 1783725108405,
+        "type": "sent",
+        "amount": 20,
+        "address": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "to": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "date": "7/10/2026, 4:11:38 PM",
+        "status": "completed",
+        "hash": "0x1d1f98b1a1ebc810a58c1f9d5f8b32a2f1cb94f86251196107e18fe2381604ef"
+      }
+    ],
+    "createdAt": "2026-07-10T23:11:38.957Z"
+  },
+  "0xf89133Af803a91A6166A2DB9BbE30F3941203B05": {
+    "address": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+    "email": "user_0xf89133@demo.com",
+    "balance": 140,
+    "balanceUSD": 277.2,
+    "transactions": [
+      {
+        "id": 1783725664076,
+        "type": "received",
+        "amount": 50,
+        "address": "0xF5CF3691842f00d333D1931ad6B897C483340Bcd",
+        "from": "0xF5CF3691842f00d333D1931ad6B897C483340Bcd",
+        "date": "7/10/2026, 4:21:01 PM",
+        "status": "completed",
+        "hash": "0xac1538ba7c61cedca87a9fa455db6f4bacebdbbc216707c0dff85186aa669196"
+      },
+      {
+        "id": 1783725667468,
+        "type": "received",
+        "amount": 50,
+        "address": "0xF5CF3691842f00d333D1931ad6B897C483340Bcd",
+        "from": "0xF5CF3691842f00d333D1931ad6B897C483340Bcd",
+        "date": "7/10/2026, 4:21:01 PM",
+        "status": "completed",
+        "hash": "0xac1538ba7c61cedca87a9fa455db6f4bacebdbbc216707c0dff85186aa669196"
+      },
+      {
+        "id": 1783725100821,
+        "type": "received",
+        "amount": 20,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/10/2026, 4:11:38 PM",
+        "status": "completed",
+        "hash": "0x1d1f98b1a1ebc810a58c1f9d5f8b32a2f1cb94f86251196107e18fe2381604ef"
+      },
+      {
+        "id": 1783725105705,
+        "type": "received",
+        "amount": 20,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/10/2026, 4:11:38 PM",
+        "status": "completed",
+        "hash": "0x1d1f98b1a1ebc810a58c1f9d5f8b32a2f1cb94f86251196107e18fe2381604ef"
+      }
+    ],
+    "createdAt": "2026-07-10T23:11:38.957Z"
+  },
+  "0xF5CF3691842f00d333D1931ad6B897C483340Bcd": {
+    "address": "0xF5CF3691842f00d333D1931ad6B897C483340Bcd",
+    "email": "user_0xF5CF36@demo.com",
+    "balance": -100,
+    "balanceUSD": -198,
+    "transactions": [
+      {
+        "id": 1783725663527,
+        "type": "sent",
+        "amount": 50,
+        "address": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "to": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "date": "7/10/2026, 4:21:01 PM",
+        "status": "completed",
+        "hash": "0xac1538ba7c61cedca87a9fa455db6f4bacebdbbc216707c0dff85186aa669196"
+      },
+      {
+        "id": 1783725666004,
+        "type": "sent",
+        "amount": 50,
+        "address": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "to": "0xf89133Af803a91A6166A2DB9BbE30F3941203B05",
+        "date": "7/10/2026, 4:21:01 PM",
+        "status": "completed",
+        "hash": "0xac1538ba7c61cedca87a9fa455db6f4bacebdbbc216707c0dff85186aa669196"
+      }
+    ],
+    "createdAt": "2026-07-10T23:21:01.441Z"
+  },
+  "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918": {
+    "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+    "email": "user_0xCcadC7@demo.com",
+    "balance": 10.52,
+    "balanceUSD": 20.83,
+    "transactions": [
+      {
+        "id": 1783880389559,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/12/2026, 11:19:40 AM",
+        "status": "completed",
+        "hash": "0x0d51d387ac256b29ea305152bfd0bcf0e221a670ab415b3306e9c83f8f8d5663"
+      },
+      {
+        "id": 1783800206602,
+        "type": "received",
+        "amount": 40,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 1:03:26 PM",
+        "status": "completed",
+        "hash": "0x1766f215fe7de91a90f1193484bb3a7462225dfef75ff98381da600b975c0812"
+      },
+      {
+        "id": 1783799832874,
+        "type": "received",
+        "amount": 100,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 12:57:11 PM",
+        "status": "completed",
+        "hash": "0x769a42455ef09e6540ed92a1c74ed811d00fb69fea07db5308065f7b03f69592"
+      },
+      {
+        "id": 1783799840838,
+        "type": "received",
+        "amount": 100,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 12:57:11 PM",
+        "status": "completed",
+        "hash": "0x769a42455ef09e6540ed92a1c74ed811d00fb69fea07db5308065f7b03f69592"
+      },
+      {
+        "id": 1783799540545,
+        "type": "sent",
+        "amount": 18,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 12:52:13 PM",
+        "status": "completed",
+        "hash": "0xe8d85753d4c94cc89f66b8a2ea7dcc79732ec6a095547af6948e42c75c9ecd02"
+      },
+      {
+        "id": 1783799542285,
+        "type": "sent",
+        "amount": 18,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 12:52:12 PM",
+        "status": "completed",
+        "hash": "0xe8d85753d4c94cc89f66b8a2ea7dcc79732ec6a095547af6948e42c75c9ecd02"
+      },
+      {
+        "id": 1783786482591,
+        "type": "received",
+        "amount": 2,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 9:14:40 AM",
+        "status": "completed",
+        "hash": "0xa35714614cdfd538560779eeae9f5ed6bf206b7d6f821242049e01b413b8084e"
+      },
+      {
+        "id": 1783786480928,
+        "type": "received",
+        "amount": 2,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 9:14:40 AM",
+        "status": "completed",
+        "hash": "0xa35714614cdfd538560779eeae9f5ed6bf206b7d6f821242049e01b413b8084e"
+      },
+      {
+        "id": 1783786341914,
+        "type": "received",
+        "amount": 10,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 9:12:14 AM",
+        "status": "completed",
+        "hash": "0xfa4bed9785ce06f728c49a3a4b8e0a8a48d4035f9845b472418b96b44696d3c5"
+      },
+      {
+        "id": 1783786341385,
+        "type": "received",
+        "amount": 10,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 9:12:13 AM",
+        "status": "completed",
+        "hash": "0xfa4bed9785ce06f728c49a3a4b8e0a8a48d4035f9845b472418b96b44696d3c5"
+      },
+      {
+        "id": 1783785876903,
+        "type": "received",
+        "amount": 20,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 9:04:30 AM",
+        "status": "completed",
+        "hash": "0xff419a0d5a80c10b607606a97a53d09beb1e01643beb7e3219792fce2e80c513"
+      },
+      {
+        "id": 1783785873574,
+        "type": "received",
+        "amount": 20,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "from": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 9:04:30 AM",
+        "status": "completed",
+        "hash": "0xff419a0d5a80c10b607606a97a53d09beb1e01643beb7e3219792fce2e80c513"
+      },
+      {
+        "id": 1783785497020,
+        "type": "sent",
+        "amount": 57,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:58:14 AM",
+        "status": "completed",
+        "hash": "0xdc9ce0c4a0d6006d8cf3301ca05647143ecf1a07c4e39d71708d42f2f517a6f7"
+      },
+      {
+        "id": 1783785499044,
+        "type": "sent",
+        "amount": 57,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:58:14 AM",
+        "status": "completed",
+        "hash": "0xdc9ce0c4a0d6006d8cf3301ca05647143ecf1a07c4e39d71708d42f2f517a6f7"
+      },
+      {
+        "id": 1783785443013,
+        "type": "received",
+        "amount": 120.51605982771817,
+        "address": "0xD00313d5BfE3f9Ea979ae3C6D453D27DefD61394",
+        "from": "0xD00313d5BfE3f9Ea979ae3C6D453D27DefD61394",
+        "date": "7/11/2026, 8:57:20 AM",
+        "status": "completed",
+        "hash": "0xe41c93b502fcf8c3b312471fc43b20f2e9e996c3a91767e7fa73702a9e6595b7"
+      },
+      {
+        "id": 1783785121566,
+        "type": "sent",
+        "amount": 12,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:51:52 AM",
+        "status": "completed",
+        "hash": "0x756fed5b64000c0ab695e45ab53255307cc605ee9d965dab867a985bbfe5cf34"
+      },
+      {
+        "id": 1783785121615,
+        "type": "sent",
+        "amount": 12,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:51:51 AM",
+        "status": "completed",
+        "hash": "0x756fed5b64000c0ab695e45ab53255307cc605ee9d965dab867a985bbfe5cf34"
+      },
+      {
+        "id": 1783785032643,
+        "type": "sent",
+        "amount": 43,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:50:26 AM",
+        "status": "completed",
+        "hash": "0xc3cff0ff18c48e976719eaab4f151f6ac319f069ddd321bfea80d0eb12ee1e29"
+      },
+      {
+        "id": 1783785030849,
+        "type": "sent",
+        "amount": 43,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:50:26 AM",
+        "status": "completed",
+        "hash": "0xc3cff0ff18c48e976719eaab4f151f6ac319f069ddd321bfea80d0eb12ee1e29"
+      },
+      {
+        "id": 1783784891039,
+        "type": "sent",
+        "amount": 32,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:48:07 AM",
+        "status": "completed",
+        "hash": "0x0a71eef5efbca3be67679e2f8ab939d0daee31de785f4acb94c004ac802e506b"
+      },
+      {
+        "id": 1783784891127,
+        "type": "sent",
+        "amount": 32,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:48:07 AM",
+        "status": "completed",
+        "hash": "0x0a71eef5efbca3be67679e2f8ab939d0daee31de785f4acb94c004ac802e506b"
+      },
+      {
+        "id": 1783783916511,
+        "type": "sent",
+        "amount": 40,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:31:52 AM",
+        "status": "completed",
+        "hash": "0x8340c328cf6c8fc6e6145e6a16697625660116f568ca5b7b84e3739dc2e5c071"
+      },
+      {
+        "id": 1783783920682,
+        "type": "sent",
+        "amount": 40,
+        "address": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "to": "0x0D47A06F9c06b3dbC537aFe2E63B3612b16Ca6B7",
+        "date": "7/11/2026, 8:31:51 AM",
+        "status": "completed",
+        "hash": "0x8340c328cf6c8fc6e6145e6a16697625660116f568ca5b7b84e3739dc2e5c071"
+      }
+    ],
+    "createdAt": "2026-07-11T15:31:52.215Z"
+  },
+  "0xD00313d5BfE3f9Ea979ae3C6D453D27DefD61394": {
+    "address": "0xD00313d5BfE3f9Ea979ae3C6D453D27DefD61394",
+    "email": "user_0xD00313@demo.com",
+    "balance": -120.52,
+    "balanceUSD": -238.63,
+    "transactions": [
+      {
+        "id": 1783785447315,
+        "type": "sent",
+        "amount": 120.51605982771817,
+        "address": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "to": "0xCcadC71f2c05e2C655b8ED0144B9d9563A620918",
+        "date": "7/11/2026, 8:57:20 AM",
+        "status": "completed",
+        "hash": "0xe41c93b502fcf8c3b312471fc43b20f2e9e996c3a91767e7fa73702a9e6595b7"
+      }
+    ],
+    "createdAt": "2026-07-11T15:57:20.333Z"
+  },
+  "0x5a9Fc8D6e90344D5Ede6fA87Fe8eB8Cd279E5340": {
+    "address": "0x5a9Fc8D6e90344D5Ede6fA87Fe8eB8Cd279E5340",
+    "email": "user_0x5a9Fc8@demo.com",
+    "balance": -40,
+    "balanceUSD": -79.2,
+    "transactions": [
+      {
+        "id": 1783958235187,
+        "type": "sent",
+        "amount": 40,
+        "address": "0xBEc2ab44ceea35A98fACA9d60871aAE2AB9FeFF4",
+        "to": "0xBEc2ab44ceea35A98fACA9d60871aAE2AB9FeFF4",
+        "date": "7/13/2026, 8:57:06 AM",
+        "status": "completed",
+        "hash": "0xbfc0c96f29271723b09165dff436bfc9e2cd9782c0569b5c3d746b52cf146c4f"
+      }
+    ],
+    "createdAt": "2026-07-13T15:57:06.250Z"
+  },
+  "0xBEc2ab44ceea35A98fACA9d60871aAE2AB9FeFF4": {
+    "address": "0xBEc2ab44ceea35A98fACA9d60871aAE2AB9FeFF4",
+    "email": "user_0xBEc2ab@demo.com",
+    "balance": 40,
+    "balanceUSD": 79.2,
+    "transactions": [
+      {
+        "id": 1783958234874,
+        "type": "received",
+        "amount": 40,
+        "address": "0x5a9Fc8D6e90344D5Ede6fA87Fe8eB8Cd279E5340",
+        "from": "0x5a9Fc8D6e90344D5Ede6fA87Fe8eB8Cd279E5340",
+        "date": "7/13/2026, 8:57:06 AM",
+        "status": "completed",
+        "hash": "0xbfc0c96f29271723b09165dff436bfc9e2cd9782c0569b5c3d746b52cf146c4f"
+      }
+    ],
+    "createdAt": "2026-07-13T15:57:06.250Z"
+  },
+  "0xD0264B7FD21D3Cb8A01AF0A18287A002eB2b9c01": {
+    "address": "0xD0264B7FD21D3Cb8A01AF0A18287A002eB2b9c01",
+    "email": "user_0xD0264B@demo.com",
+    "balance": -20,
+    "balanceUSD": -39.6,
+    "transactions": [
+      {
+        "id": 1784123027058,
+        "type": "sent",
+        "amount": 20,
+        "address": "0x28eE621E5D214a1F8D185e7CBF604f05C2950e79",
+        "to": "0x28eE621E5D214a1F8D185e7CBF604f05C2950e79",
+        "date": "7/15/2026, 6:43:38 AM",
+        "status": "completed",
+        "hash": "0x9b6d9ee56f2c76420030075d077875472c6cef5fc95f74ff2201ff5cce6e6359"
+      }
+    ],
+    "createdAt": "2026-07-15T13:43:39.023Z"
+  },
+  "0x28eE621E5D214a1F8D185e7CBF604f05C2950e79": {
+    "address": "0x28eE621E5D214a1F8D185e7CBF604f05C2950e79",
+    "email": "user_0x28eE62@demo.com",
+    "balance": 20,
+    "balanceUSD": 39.6,
+    "transactions": [
+      {
+        "id": 1784123023804,
+        "type": "received",
+        "amount": 20,
+        "address": "0xD0264B7FD21D3Cb8A01AF0A18287A002eB2b9c01",
+        "from": "0xD0264B7FD21D3Cb8A01AF0A18287A002eB2b9c01",
+        "date": "7/15/2026, 6:43:38 AM",
+        "status": "completed",
+        "hash": "0x9b6d9ee56f2c76420030075d077875472c6cef5fc95f74ff2201ff5cce6e6359"
+      }
+    ],
+    "createdAt": "2026-07-15T13:43:39.023Z"
+  },
+  "0x721322e18117E1D936b20e90F66240957Ee67B4B": {
+    "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+    "email": "user_0x721322@demo.com",
+    "balance": 1000,
+    "balanceUSD": 1980,
+    "transactions": [
+      {
+        "id": 1785505655634,
+        "type": "received",
+        "amount": 1000,
+        "address": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "from": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "date": "7/31/2026, 6:47:26 AM",
+        "status": "completed",
+        "hash": "0x9e39fbac018468a6272665958d66edfa7a762bc61369447de5270459ff9b4404"
+      },
+      {
+        "id": 1785433983408,
+        "type": "sent",
+        "amount": 1000,
+        "address": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "to": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "date": "7/30/2026, 10:53:01 AM",
+        "status": "completed",
+        "hash": "0xecf676d3fd8804cf4f6ec91ee1d27b87e08abce1a8c75b3654aea4f6e1cfbee6"
+      },
+      {
+        "id": 1785433872417,
+        "type": "received",
+        "amount": 1000,
+        "address": "0x5355cfEeC2ebC2b847aDabFc0D201B71cb7E588e",
+        "from": "0x5355cfEeC2ebC2b847aDabFc0D201B71cb7E588e",
+        "date": "7/30/2026, 10:51:10 AM",
+        "status": "completed",
+        "hash": "0x72e2822c1995972a0c1c0da0bdecb48ef5c7962a742695eaf0a180b56a040737"
+      },
+      {
+        "id": 1785426714711,
+        "type": "received",
+        "amount": 1,
+        "address": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "from": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "date": "7/30/2026, 8:51:50 AM",
+        "status": "completed",
+        "hash": "0x4ce243a72e6c4e6962cd203ab5ec997b74a4f0f4bf0d1891fe2c0f05fcf2f2f8"
+      },
+      {
+        "id": 1785325769611,
+        "type": "received",
+        "amount": 18,
+        "address": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "from": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "date": "7/29/2026, 4:49:28 AM",
+        "status": "completed",
+        "hash": "0x97c350bd491474d6ce31c3dd080c0def5a266f93355d8ad5e484bd07fbe1017d"
+      },
+      {
+        "id": 1785323103942,
+        "type": "sent",
+        "amount": 19,
+        "address": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "to": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+        "date": "7/29/2026, 4:05:02 AM",
+        "status": "completed",
+        "hash": "0x163554220b0d30cec88797f8d50b028007a4ffb2813625e1ab3a8dd1522921b2"
+      }
+    ],
+    "createdAt": "2026-07-29T11:05:02.645Z"
+  },
+  "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b": {
+    "address": "0x4a3B2C1D9E8F7A6B5c4d3e2f1a0B9C8D7e6F5A4b",
+    "email": "user_0x4a3B2C@demo.com",
+    "balance": 0,
+    "balanceUSD": 0,
+    "transactions": [
+      {
+        "id": 1785505657357,
+        "type": "sent",
+        "amount": 1000,
+        "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "to": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "date": "7/31/2026, 6:47:26 AM",
+        "status": "completed",
+        "hash": "0x9e39fbac018468a6272665958d66edfa7a762bc61369447de5270459ff9b4404"
+      },
+      {
+        "id": 1785433990375,
+        "type": "received",
+        "amount": 1000,
+        "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "from": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "date": "7/30/2026, 10:53:01 AM",
+        "status": "completed",
+        "hash": "0xecf676d3fd8804cf4f6ec91ee1d27b87e08abce1a8c75b3654aea4f6e1cfbee6"
+      },
+      {
+        "id": 1785426713258,
+        "type": "sent",
+        "amount": 1,
+        "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "to": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "date": "7/30/2026, 8:51:50 AM",
+        "status": "completed",
+        "hash": "0x4ce243a72e6c4e6962cd203ab5ec997b74a4f0f4bf0d1891fe2c0f05fcf2f2f8"
+      },
+      {
+        "id": 1785325776911,
+        "type": "sent",
+        "amount": 18,
+        "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "to": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "date": "7/29/2026, 4:49:28 AM",
+        "status": "completed",
+        "hash": "0x97c350bd491474d6ce31c3dd080c0def5a266f93355d8ad5e484bd07fbe1017d"
+      },
+      {
+        "id": 1785323112078,
+        "type": "received",
+        "amount": 19,
+        "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "from": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "date": "7/29/2026, 4:05:02 AM",
+        "status": "completed",
+        "hash": "0x163554220b0d30cec88797f8d50b028007a4ffb2813625e1ab3a8dd1522921b2"
+      }
+    ],
+    "createdAt": "2026-07-29T11:05:02.645Z"
+  },
+  "0x5355cfEeC2ebC2b847aDabFc0D201B71cb7E588e": {
+    "address": "0x5355cfEeC2ebC2b847aDabFc0D201B71cb7E588e",
+    "email": "user_0x5355cf@demo.com",
+    "balance": -1000,
+    "balanceUSD": -1980,
+    "transactions": [
+      {
+        "id": 1785433871249,
+        "type": "sent",
+        "amount": 1000,
+        "address": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "to": "0x721322e18117E1D936b20e90F66240957Ee67B4B",
+        "date": "7/30/2026, 10:51:10 AM",
+        "status": "completed",
+        "hash": "0x72e2822c1995972a0c1c0da0bdecb48ef5c7962a742695eaf0a180b56a040737"
+      }
+    ],
+    "createdAt": "2026-07-30T17:51:10.588Z"
+  },
+  "0x33f8e7410C1E23489508a19C71d901860911D4dC": {
+    "address": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+    "email": "user_0x33f8e7@demo.com",
+    "balance": 1,
+    "balanceUSD": 1.98,
+    "transactions": [
+      {
+        "id": 1785679992410,
+        "type": "sent",
+        "amount": 27,
+        "address": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "to": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "date": "8/2/2026, 7:13:02 AM",
+        "status": "completed",
+        "hash": "0x6691e6dc46e25bc44133d203dc9e82ee461ed08527c0a04c36fb99a9418a0320"
+      },
+      {
+        "id": 1785634585840,
+        "type": "received",
+        "amount": 10,
+        "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "from": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "date": "8/1/2026, 6:36:17 PM",
+        "status": "completed",
+        "hash": "0x3d9124acc90ffe476f8aadcbd805247e289329988b869546788b2bc67ca7c5da"
+      },
+      {
+        "id": 1785634144162,
+        "type": "sent",
+        "amount": 140,
+        "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "to": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "date": "8/1/2026, 6:28:55 PM",
+        "status": "completed",
+        "hash": "0x1af85652cacd1d37945c72866e2886ef74898113c1e41218e71cf92f33a1b52a"
+      },
+      {
+        "id": 1785634072670,
+        "type": "received",
+        "amount": 170,
+        "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "from": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "date": "8/1/2026, 6:27:46 PM",
+        "status": "completed",
+        "hash": "0x2bd658a0340ef01be918d0778aacbe19be8f936e3807d44286c747dbc8aa043a"
+      },
+      {
+        "id": 1785632734090,
+        "type": "sent",
+        "amount": 12,
+        "address": "0x13E2604046E320FC2DD3A3e073075Ead8E26D504",
+        "to": "0x13E2604046E320FC2DD3A3e073075Ead8E26D504",
+        "date": "8/1/2026, 6:05:31 PM",
+        "status": "completed",
+        "hash": "0x0d4fd2abfacb4611a605029253289cd3bf6f721ad1fe97ac5c2d3542c6ee8da3"
+      }
+    ],
+    "createdAt": "2026-08-02T01:05:31.630Z"
+  },
+  "0x13E2604046E320FC2DD3A3e073075Ead8E26D504": {
+    "address": "0x13E2604046E320FC2DD3A3e073075Ead8E26D504",
+    "email": "user_0x13E260@demo.com",
+    "balance": 12,
+    "balanceUSD": 23.76,
+    "transactions": [
+      {
+        "id": 1785632733551,
+        "type": "received",
+        "amount": 12,
+        "address": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "from": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "date": "8/1/2026, 6:05:31 PM",
+        "status": "completed",
+        "hash": "0x0d4fd2abfacb4611a605029253289cd3bf6f721ad1fe97ac5c2d3542c6ee8da3"
+      }
+    ],
+    "createdAt": "2026-08-02T01:05:31.630Z"
+  },
+  "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593": {
+    "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+    "email": "user_0xFB2937@demo.com",
+    "balance": 0,
+    "balanceUSD": 0,
+    "transactions": [
+      {
+        "id": 1786688688203,
+        "type": "sent",
+        "amount": 2000,
+        "address": "0x1a049280ba0f8fc9B256aF845d7A848918b0A5c6",
+        "to": "0x1a049280ba0f8fc9B256aF845d7A848918b0A5c6",
+        "date": "8/13/2026, 11:24:42 PM",
+        "status": "completed",
+        "hash": "0x055501730fe69969d228ce590779d369af39cfc50d8b033a909f8db81bee7aa3"
+      },
+      {
+        "id": 1786688142312,
+        "type": "received",
+        "amount": 2000,
+        "address": "0x1a049280ba0f8fc9B256aF845d7A848918b0A5c6",
+        "from": "0x1a049280ba0f8fc9B256aF845d7A848918b0A5c6",
+        "date": "8/13/2026, 11:15:36 PM",
+        "status": "completed",
+        "hash": "0x7d46f0fab0201081006dbe66d23abb17ef072ee1853b385bd286989a4775ca66"
+      },
+      {
+        "id": 1785679950702,
+        "type": "sent",
+        "amount": 949,
+        "address": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "to": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "date": "8/2/2026, 7:12:27 AM",
+        "status": "completed",
+        "hash": "0x05eece1b0f04c8ba21139b080d5f0a63eaa67912f14b22116b23a8da6bb38b81"
+      },
+      {
+        "id": 1785679911994,
+        "type": "sent",
+        "amount": 9000,
+        "address": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "to": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "date": "8/2/2026, 7:11:45 AM",
+        "status": "completed",
+        "hash": "0xfc625a2ab65db1f500f547cb63d0684cc35de83e74679a6b6a01b1cc79f81183"
+      },
+      {
+        "id": 1785679432333,
+        "type": "received",
+        "amount": 9999,
+        "address": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "from": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "date": "8/2/2026, 7:03:49 AM",
+        "status": "completed",
+        "hash": "0xd6bc76afc39acd1e84e25953c4c1957b2adb62265a4b7ba9ebf2a89c11822aa7"
+      },
+      {
+        "id": 1785678807374,
+        "type": "received",
+        "amount": 120,
+        "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "from": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "date": "8/2/2026, 6:53:25 AM",
+        "status": "completed",
+        "hash": "0x6e440e7338404bb05349c1aa8bb8701157a19881db4f48c6083828cbf2d56166"
+      },
+      {
+        "id": 1785633088446,
+        "type": "sent",
+        "amount": 170,
+        "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "to": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "date": "8/1/2026, 6:11:26 PM",
+        "status": "completed",
+        "hash": "0x76c2d4e313438c5a4c743bc001a205d10170cfe27405f1e2a11df50ba6d3f54a"
+      }
+    ],
+    "createdAt": "2026-08-02T01:11:26.597Z"
+  },
+  "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e": {
+    "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+    "email": "user_0x0466ee@demo.com",
+    "balance": 0,
+    "balanceUSD": 0,
+    "transactions": [
+      {
+        "id": 1785680052394,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "to": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+        "date": "8/2/2026, 7:14:05 AM",
+        "status": "completed",
+        "hash": "0x21cefc5f597b4d82afa768e87617f73f654e46e57e1dd9f58b72528744cc2086"
+      },
+      {
+        "id": 1785678813708,
+        "type": "sent",
+        "amount": 120,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "to": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/2/2026, 6:53:25 AM",
+        "status": "completed",
+        "hash": "0x6e440e7338404bb05349c1aa8bb8701157a19881db4f48c6083828cbf2d56166"
+      },
+      {
+        "id": 1785634585016,
+        "type": "sent",
+        "amount": 10,
+        "address": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "to": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "date": "8/1/2026, 6:36:17 PM",
+        "status": "completed",
+        "hash": "0x3d9124acc90ffe476f8aadcbd805247e289329988b869546788b2bc67ca7c5da"
+      },
+      {
+        "id": 1785634144210,
+        "type": "received",
+        "amount": 140,
+        "address": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "from": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "date": "8/1/2026, 6:28:55 PM",
+        "status": "completed",
+        "hash": "0x1af85652cacd1d37945c72866e2886ef74898113c1e41218e71cf92f33a1b52a"
+      },
+      {
+        "id": 1785634074625,
+        "type": "sent",
+        "amount": 170,
+        "address": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "to": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "date": "8/1/2026, 6:27:46 PM",
+        "status": "completed",
+        "hash": "0x2bd658a0340ef01be918d0778aacbe19be8f936e3807d44286c747dbc8aa043a"
+      },
+      {
+        "id": 1785633093576,
+        "type": "received",
+        "amount": 170,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "from": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/1/2026, 6:11:26 PM",
+        "status": "completed",
+        "hash": "0x76c2d4e313438c5a4c743bc001a205d10170cfe27405f1e2a11df50ba6d3f54a"
+      }
+    ],
+    "createdAt": "2026-08-02T01:11:26.597Z"
+  },
+  "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd": {
+    "address": "0x7249cc822Ee042D52E987B6F445C50247f1b47Bd",
+    "email": "user_0x7249cc@demo.com",
+    "balance": -13,
+    "balanceUSD": -25.74,
+    "transactions": [
+      {
+        "id": 1785680053753,
+        "type": "received",
+        "amount": 10,
+        "address": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "from": "0x0466ee7d311878bDB46a937Cfca2D9b9d536172e",
+        "date": "8/2/2026, 7:14:05 AM",
+        "status": "completed",
+        "hash": "0x21cefc5f597b4d82afa768e87617f73f654e46e57e1dd9f58b72528744cc2086"
+      },
+      {
+        "id": 1785679990722,
+        "type": "received",
+        "amount": 27,
+        "address": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "from": "0x33f8e7410C1E23489508a19C71d901860911D4dC",
+        "date": "8/2/2026, 7:13:02 AM",
+        "status": "completed",
+        "hash": "0x6691e6dc46e25bc44133d203dc9e82ee461ed08527c0a04c36fb99a9418a0320"
+      },
+      {
+        "id": 1785679952248,
+        "type": "received",
+        "amount": 949,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "from": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/2/2026, 7:12:27 AM",
+        "status": "completed",
+        "hash": "0x05eece1b0f04c8ba21139b080d5f0a63eaa67912f14b22116b23a8da6bb38b81"
+      },
+      {
+        "id": 1785679908660,
+        "type": "received",
+        "amount": 9000,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "from": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/2/2026, 7:11:45 AM",
+        "status": "completed",
+        "hash": "0xfc625a2ab65db1f500f547cb63d0684cc35de83e74679a6b6a01b1cc79f81183"
+      },
+      {
+        "id": 1785679438590,
+        "type": "sent",
+        "amount": 9999,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "to": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/2/2026, 7:03:49 AM",
+        "status": "completed",
+        "hash": "0xd6bc76afc39acd1e84e25953c4c1957b2adb62265a4b7ba9ebf2a89c11822aa7"
+      }
+    ],
+    "createdAt": "2026-08-02T14:03:49.456Z"
+  },
+  "0x1a049280ba0f8fc9B256aF845d7A848918b0A5c6": {
+    "address": "0x1a049280ba0f8fc9B256aF845d7A848918b0A5c6",
+    "email": "user_0x1a0492@demo.com",
+    "balance": 0,
+    "balanceUSD": 0,
+    "transactions": [
+      {
+        "id": 1786688684326,
+        "type": "received",
+        "amount": 2000,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "from": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/13/2026, 11:24:42 PM",
+        "status": "completed",
+        "hash": "0x055501730fe69969d228ce590779d369af39cfc50d8b033a909f8db81bee7aa3"
+      },
+      {
+        "id": 1786688140966,
+        "type": "sent",
+        "amount": 2000,
+        "address": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "to": "0xFB2937f8C3aA9DfD21A23CEDec39d5d22266c593",
+        "date": "8/13/2026, 11:15:36 PM",
+        "status": "completed",
+        "hash": "0x7d46f0fab0201081006dbe66d23abb17ef072ee1853b385bd286989a4775ca66"
+      }
+    ],
+    "createdAt": "2026-08-14T06:15:37.069Z"
+  }
+}

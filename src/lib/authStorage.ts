@@ -11,6 +11,12 @@ export interface AuthAccount {
   profilePhoto: string | null;
   disabled?: boolean;
   createdAt: string;
+  // 👇 Additional profile fields (used in profile page)
+  phone?: string;
+  address?: string;
+  dob?: string;
+  location?: string;
+  bio?: string;
   // 👇 Optional security settings (persisted with updateUserSettings)
   twoFactorEnabled?: boolean;
   notificationsEnabled?: boolean;

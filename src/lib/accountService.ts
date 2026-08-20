@@ -6,6 +6,9 @@ export interface Account {
   address: string;
   createdAt: string;
   profilePhoto?: string | null;
+  phone?: string;        // ✅ added
+  dob?: string;          // ✅ added
+  location?: string;     // ✅ added
 }
 
 // ─── SSR-safe helpers ──────────────────────────────────────

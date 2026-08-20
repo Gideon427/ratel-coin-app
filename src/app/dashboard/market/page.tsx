@@ -62,19 +62,18 @@ export default function MarketPage() {
 
   // ─── Generate depth data ──────────────────────────────
   const generateDepthData = (currentPrice: number) => {
-    const bids: any[] = [];
-    const asks: any[] = [];
-    for (let i = 1; i <= 10; i++) {
-      const bidPrice = currentPrice - i * 0.0005;
-      const askPrice = currentPrice + i * 0.0005;
-      const bidVol = Math.floor(Math.random() * 1500 + 200);
-      const askVol = Math.floor(Math.random() * 1500 + 200);
-      bids.push({ price: bidPrice, volume: bidVol, type: "bid" });
-      asks.push({ price: askPrice, volume: askVol, type: "ask" });
-    }
-    setDepthData([...bids.reverse(), ...asks]);
-  };
-
+  const data = [];
+  for (let i = 1; i <= 10; i++) {
+    const bidPrice = currentPrice - i * 0.0005;
+    const askPrice = currentPrice + i * 0.0005;
+    data.push({
+      price: bidPrice,        // X‑axis shared
+      bidVolume: Math.floor(Math.random() * 1500 + 200),
+      askVolume: Math.floor(Math.random() * 1500 + 200),
+    });
+  }
+  setDepthData(data.sort((a, b) => a.price - b.price));
+};
   // ─── Fetch price and market data ──────────────────────────
   useEffect(() => {
     async function fetchPrice() {
@@ -170,37 +169,35 @@ export default function MarketPage() {
     if (chartView === "depth") {
       return (
         <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={depthData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
-            <XAxis dataKey="price" tickFormatter={(v) => v.toFixed(4)} />
-            <YAxis />
-            <Tooltip
-              contentStyle={{
-                backgroundColor: 'white',
-                border: '1px solid #e5e7eb',
-                borderRadius: '8px',
-              }}
-              formatter={(value: any, name: string) => [`${value} RTC`, name === 'volume' ? 'Volume' : '']}
-            />
-            <Area
-              type="step"
-              dataKey="volume"
-              data={depthData.filter(d => d.type === 'bid')}
-              fill="#22c55e"
-              stroke="#22c55e"
-              name="Bids"
-              fillOpacity={0.6}
-            />
-            <Area
-              type="step"
-              dataKey="volume"
-              data={depthData.filter(d => d.type === 'ask')}
-              fill="#dc2626"
-              stroke="#dc2626"
-              name="Asks"
-              fillOpacity={0.6}
-            />
-          </AreaChart>
+<AreaChart data={depthData} margin={{ top: 10, right: 10, left: 0, bottom: 0 }}>
+  <CartesianGrid strokeDasharray="3 3" stroke="#e5e7eb" />
+  <XAxis dataKey="price" tickFormatter={(v) => v.toFixed(4)} />
+  <YAxis />
+  <Tooltip
+    contentStyle={{
+      backgroundColor: 'white',
+      border: '1px solid #e5e7eb',
+      borderRadius: '8px',
+    }}
+    formatter={(value: any, name) => [`${value} RTC`, name === 'volume' ? 'Volume' : '']}
+  />
+  <Area
+    type="step"
+    dataKey="bidVolume"
+    fill="#22c55e"
+    stroke="#22c55e"
+    name="Bids"
+    fillOpacity={0.6}
+  />
+  <Area
+    type="step"
+    dataKey="askVolume"
+    fill="#dc2626"
+    stroke="#dc2626"
+    name="Asks"
+    fillOpacity={0.6}
+  />
+</AreaChart>
         </ResponsiveContainer>
       );
     }
@@ -248,7 +245,7 @@ export default function MarketPage() {
               border: '1px solid #e5e7eb',
               borderRadius: '8px',
             }}
-            formatter={(value: number) => [`$${value.toFixed(4)}`, 'Price']}
+            formatter={(value: any, name) => [`${value} RTC`, name === 'volume' ? 'Volume' : '']}
             labelFormatter={(label) => `Date: ${label}`}
           />
           <Line

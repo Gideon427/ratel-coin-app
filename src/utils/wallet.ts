@@ -1,5 +1,14 @@
 // utils/wallet.ts
 
+import {
+  WalletData,
+  normalizeAddress,
+  readWalletState,
+  persistWalletState,
+  createTransaction,
+  queuePendingReceiveEvent,
+} from "@/lib/walletService";
+
 // Helper: convert to integer cents (2 decimals)
 function toCents(value: number): number {
   return Math.round(value * 100);

@@ -41,8 +41,11 @@ export default function PreferencesSettings() {
     setIsLoading(false);
   }, [router]);
 
+  // ✅ FIXED: safely extract `checked` only for checkbox inputs
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement | HTMLInputElement>) => {
-    const { name, value, type, checked } = e.target;
+    const { name, value, type } = e.target;
+    // Only read `checked` if the target is a checkbox (HTMLInputElement)
+    const checked = type === "checkbox" ? (e.target as HTMLInputElement).checked : undefined;
     setPrefs((current) => ({
       ...current,
       [name]: type === "checkbox" ? checked : value,
